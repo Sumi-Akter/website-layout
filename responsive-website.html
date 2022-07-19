@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body{
+            width: 800px;
+            margin: 0 auto;
+              
+        }
+        h1{
+            font-size: 100px;
+        }
+        .tiger img{
+            width: 100%;
+        }
+        .container-two{
+            display: flex;
+        }
+        .container-two .split{
+            width: 50%;
+
+        }
+        .split img{
+            width: 100%;
+
+        }
+        .container{
+            display: grid;
+            grid-template-columns: repeat(3,1fr);
+            gap: 10px;
+        
+        }
+       
+        .food{
+            border: 2px solid black;
+            padding: 10px;
+            border-radius: 5px;
+        }
+        .food img{
+          width: 100%;
+        }
+        @media screen  and (max-width :576px){
+            .container-two{
+                flex-direction:column-reverse;
+            }
+            .container-two .split{
+                width: 100%;
+            }
+            
+        }
+    </style>
+</head>
+<body>
+    <section>
+        <h1>my responsive website</h1>
+    </section>
+    <section class="tiger">
+        <h3>Tigger</h3>
+        <img src="images/tiger.jpg" alt="">
+    </section>
+    <section>
+        <h3>two parts</h3>
+        <div class="container-two">
+            <div class="split">
+                <img src="images/food.jpg" alt="">
+            </div>
+            <div class="split">
+                <img src="images/tiger.jpg" alt="">
+            </div>
+        </div>
+    </section>
+    <section>
+        <h2>multi coloum</h2>
+        <div class="container">
+            <food>
+                <img src="images/food.jpg" alt="" width="500" height="300" style="vertical-align:middle;margin:100px 0px">
+                
+                <h2>item-1</h2>
+                <h4>price:100</h4>
+                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Cum earum atque nostrum inventore, consequuntur rerum asperiores pariatur, exercitationem possimus delectus, error quo tenetur ut voluptatum adipisci amet tempora eos voluptates.</p>
+                <button>order now</button>
+            </food>
+            <food>
+                <img src="images/food.jpg" alt="" width="500" height="300" style="vertical-align:middle;margin:100px 0px">
+                <h2>item-2</h2>
+                <h4>price:100</h4>
+                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Cum earum atque nostrum inventore, consequuntur rerum asperiores pariatur, exercitationem possimus delectus, error quo tenetur ut voluptatum adipisci amet tempora eos voluptates.</p>
+                <button>order now</button>
+            </food>
+            <food>
+                <img src="images/food.jpg" alt="" width="500" height="300" style="vertical-align:middle;margin:100px 0px">
+                <h2>item-3</h2>
+                <h4>price:100</h4>
+                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Cum earum atque nostrum inventore, consequuntur rerum asperiores pariatur, exercitationem possimus delectus, error quo tenetur ut voluptatum adipisci amet tempora eos voluptates.</p>
+                <button>order now</button>
+            </food>
+            <food>
+                <img src="images/food.jpg" alt="" width="500" height="300" style="vertical-align:middle;margin:100px 0px">
+                <h2>item-4</h2>
+                <h4>price:100</h4>
+                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Cum earum atque nostrum inventore, consequuntur rerum asperiores pariatur, exercitationem possimus delectus, error quo tenetur ut voluptatum adipisci amet tempora eos voluptates.</p>
+                <button>order now</button>
+            </food>
+            <food>
+                <img src="images/food.jpg" alt="" width="500" height="300" style="vertical-align:middle;margin:100px 0px">
+                <h2>item-5</h2>
+                <h4>price:100</h4>
+                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Cum earum atque nostrum inventore, consequuntur rerum asperiores pariatur, exercitationem possimus delectus, error quo tenetur ut voluptatum adipisci amet tempora eos voluptates.</p>
+                <button>order now</button>
+            </food>
+            <food>
+                <img src="images/food.jpg" alt="" width="500" height="300" style="vertical-align:middle;margin:100px 0px">
+                <h2>item-6</h2>
+                <h4>price:100</h4>
+                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Cum earum atque nostrum inventore, consequuntur rerum asperiores pariatur, exercitationem possimus delectus, error quo tenetur ut voluptatum adipisci amet tempora eos voluptates.</p>
+                <button>order now</button>
+            </food>
+            <food>
+                <img src="images/food.jpg" alt="" width="500" height="300" style="vertical-align:middle;margin:100px 0px">
+                <h2>item-7</h2>
+                <h4>price:100</h4>
+                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Cum earum atque nostrum inventore, consequuntur rerum asperiores pariatur, exercitationem possimus delectus, error quo tenetur ut voluptatum adipisci amet tempora eos voluptates.</p>
+                <button>order now</button>
+            </food>
+            <food>
+                <img src="images/food.jpg" alt="" width="500" height="300" style="vertical-align:middle;margin:100px 0px">
+                <h2>item-8</h2>
+                <h4>price:100</h4>
+                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Cum earum atque nostrum inventore, consequuntur rerum asperiores pariatur, exercitationem possimus delectus, error quo tenetur ut voluptatum adipisci amet tempora eos voluptates.</p>
+                <button>order now</button>
+            </food>
+            <food>
+                <img src="images/food.jpg" alt="" width="500" height="300" style="vertical-align:middle;margin:100px 0px">
+                <h2>item-9</h2>
+                <h4>price:100</h4>
+                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Cum earum atque nostrum inventore, consequuntur rerum asperiores pariatur, exercitationem possimus delectus, error quo tenetur ut voluptatum adipisci amet tempora eos voluptates.</p>
+                <button>order now</button>
+            </food>
+            <food>
+                <img src="images/food.jpg" alt="" width="500" height="300" style="vertical-align:middle;margin:100px 0px">
+                <h2>item-10</h2>
+                <h4>price:100</h4>
+                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Cum earum atque nostrum inventore, consequuntur rerum asperiores pariatur, exercitationem possimus delectus, error quo tenetur ut voluptatum adipisci amet tempora eos voluptates.</p>
+                <button>order now</button>
+            </food>
+            <food>
+                <img src="images/food.jpg" alt="" width="500" height="300" style="vertical-align:middle;margin:100px 0px">
+                <h2>item-11</h2>
+                <h4>price:100</h4>
+                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Cum earum atque nostrum inventore, consequuntur rerum asperiores pariatur, exercitationem possimus delectus, error quo tenetur ut voluptatum adipisci amet tempora eos voluptates.</p>
+                <button>order now</button>
+            </food>
+            <food>
+                <img src="images/food.jpg" alt="" width="500" height="300" style="vertical-align:middle;margin:100px 0px">
+                <h2>item-12</h2>
+                <h4>price:100</h4>
+                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Cum earum atque nostrum inventore, consequuntur rerum asperiores pariatur, exercitationem possimus delectus, error quo tenetur ut voluptatum adipisci amet tempora eos voluptates.</p>
+                <button>order now</button>
+            </food>
+        </div>
+
+    </section>
+</body>
+</html>
